@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        div{
+            width: 150px;
+            height: 150px;
+            background: red;
+            color: #fff;
+            text-align: center;
+            line-height: 150px;
+            float: left;
+            margin: 20px;
+        }
+        .active{
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+
+<div>第1个盒子</div>
+<div>第2个盒子</div>
+<div>第3个盒子</div>
+
+</body>
+</html>
+<script>
+    //["div","div","div"]
+    let adiv = document.getElementsByTagName("div");
+
+
+
+    for(let i=0;i<adiv.length;i++){
+        adiv[i].onclick = function () {
+           alert(i)
+        }
+    }
+
+
+
+    // for(var i=0;i<adiv.length;i++){
+    //     adiv[i].className = ""
+    // }
+    // this.className = "active"
+</script>
