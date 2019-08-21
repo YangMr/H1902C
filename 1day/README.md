@@ -32,3 +32,14 @@
 ## 3.解构赋值- 数组与对象
 
 ## 4.函数之箭头函数
+
+
+-----------------------------------------
+
+作业：
+    http://www.bonli.net/index.php?c=goods&goods_id=383
+    https://www.haorooms.com/uploads/example/jscode_shizhan/lesson2/07.html
+        
+    1. 选项卡效果 -- var     
+    2. 选项卡效果 -- let
+    3.阅读老师发的帖子

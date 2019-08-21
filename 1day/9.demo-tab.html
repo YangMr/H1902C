@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <button>btn1</button>
+    <button>btn2</button>
+    <button>btn3</button>
+
+</body>
+</html>
+<script>
+
+    var abtn = document.getElementsByTagName("button");
+
+
+    for(let i=0;i<abtn.length;i++){
+        // abtn[i].index = i; //0 1 2
+        abtn[i].onclick = function () {
+            alert(i)
+        }
+    }
+
+
+
+    // abtn[0].onclick = function () {
+    //     alert("0");
+    // }
+    // abtn[1].onclick = function () {
+    //     alert("1")
+    // }
+    // abtn[2].onclick = function () {
+    //     alert("2")
+    // }
+</script>
