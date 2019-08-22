@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        ul{width: 1200px; margin: 0 auto;}
+        ul li{width: 380px; float: left; list-style: none; border: 1px solid #ccc; margin: 20px 5px;}
+        ul li img{width: 380px; height: 300px;}
+    </style>
+</head>
+<body>
+
+<input type="text" value="">
+-
+<input type="text" value="">
+
+<button id="btn">确定</button>
+
+    <ul>
+
+    </ul>
+
+</body>
+</html>
+<script>
+
+
+    let arr = [
+        {
+            product_image : "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/1714128138/O1CN01EIKM8V29zFjidvye9_!!0-item_pic.jpg_360x360Q90.jpg_.webp",
+            product_name : "小米6",
+            product_descr : "这个小米6手机非常棒",
+            product_price : "998"
+        },
+        {
+            product_image : "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/1714128138/O1CN01EIKM8V29zFjidvye9_!!0-item_pic.jpg_360x360Q90.jpg_.webp",
+            product_name : "小米7",
+            product_descr : "这个小米7手机非常棒",
+            product_price : "9998"
+        },
+        {
+            product_image : "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/1714128138/O1CN01EIKM8V29zFjidvye9_!!0-item_pic.jpg_360x360Q90.jpg_.webp",
+
+            product_name : "小米8",
+            product_descr : "这个小米8手机非常棒",
+            product_price : "1000"
+        },
+        {
+            product_image : "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/1714128138/O1CN01EIKM8V29zFjidvye9_!!0-item_pic.jpg_360x360Q90.jpg_.webp",
+
+            product_name : "小米10",
+            product_descr : "这个小米10手机非常棒",
+            product_price : "3000"
+        },
+        {
+            product_image : "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/1714128138/O1CN01EIKM8V29zFjidvye9_!!0-item_pic.jpg_360x360Q90.jpg_.webp",
+
+            product_name : "小米3",
+            product_descr : "这个小米3手机非常棒",
+            product_price : "98"
+        },
+        {
+            product_image : "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/1714128138/O1CN01EIKM8V29zFjidvye9_!!0-item_pic.jpg_360x360Q90.jpg_.webp",
+
+            product_name : "小米11",
+            product_descr : "这个小米11手机非常棒",
+            product_price : "8888"
+        },
+        {
+            product_image : "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/1714128138/O1CN01EIKM8V29zFjidvye9_!!0-item_pic.jpg_360x360Q90.jpg_.webp",
+
+            product_name : "小米12",
+            product_descr : "这个小米6手机非常棒",
+            product_price : "8889"
+        },
+        {
+            product_image : "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/1714128138/O1CN01EIKM8V29zFjidvye9_!!0-item_pic.jpg_360x360Q90.jpg_.webp",
+
+            product_name : "小米16",
+            product_descr : "这个小米6手机非常棒",
+            product_price : "8998"
+        }
+    ]
+
+
+    var ul = document.getElementsByTagName("ul")[0];
+
+
+    for(var i=0;i<arr.length;i++){
+        var li = document.createElement("li");
+        li.innerHTML = `<img src="${arr[i].product_image}">
+                        <p>${arr[i].product_name}</p>
+                        <p>${arr[i].product_descr}</p>
+                        <p>${arr[i].product_price}</p>
+                        `;
+        ul.append(li);
+    }
+
+
+    let btn = document.getElementById("btn");
+
+    btn.onclick = function(){
+        let result =  arr.filter(function (item,index) {
+            if(Number.parseFloat(item.product_price) >= 5000){
+                return item;
+            }
+        });
+        ul.innerHTML = "";
+        console.log(result)
+        for(var i=0;i<result.length;i++){
+
+            var li = document.createElement("li");
+            li.innerHTML = `<img src="${result[i].product_image}">
+                        <p>${result[i].product_name}</p>
+                        <p>${result[i].product_descr}</p>
+                        <p>${result[i].product_price}</p>
+                        `;
+            ul.append(li);
+        }
+    }
+
+
+
+
+
+</script>

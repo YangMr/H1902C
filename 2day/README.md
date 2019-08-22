@@ -1,3 +1,15 @@
+# ES6课程
+
+## 1. 什么是promise？
+
+## 2. promise的特点与缺点？
+
+## 3. promise常用方法有哪些，及作用是什么？
+
+## 4. 什么是async，await？
+
+## 5. 为什么要使用async，await？
+
 
 ## 课堂练习
 

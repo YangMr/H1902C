@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{text-align: center;}
+        div input{width: 500px;}
+        div strong{color: red; display: block}
+    </style>
+</head>
+<body>
+
+    <div>
+        <input id="num" type="text" value="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15">
+        <button>求和</button>
+        <strong></strong>
+    </div>
+
+
+</body>
+</html>
+<script>
+    //1. 点击按钮获取文本框的数据
+
+    const btn = document.getElementsByTagName("button")[0];
+    const num = document.getElementById("num");
+    const strong = document.getElementsByTagName("strong")[0];
+
+
+    btn.onclick = function () {
+        //让arr变量保存切割后的数组
+        let arr = num.value.split(",");
+        //求和
+        let result = arr.reduce(function (emp,item,index) {
+            return Number.parseFloat(emp) + Number.parseFloat(item);
+        });
+
+        console.log(result)
+        strong.innerHTML = result;
+    }
+
+
+</script>
