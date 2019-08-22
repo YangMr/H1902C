@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script src="jquery.min.js"></script>
+<script>
+
+
+    function createPromise(url){
+        return new Promise(function (resolve,reject) {
+            $.ajax({
+                url : url,
+                success : function (response) {
+                    resolve(response)
+                },
+                error : function (error) {
+                    reject(error)
+                }
+            })
+        })
+    };
+
+
+
+
+
+
+    Promise.all([
+        createPromise("./data/a.txt"),
+        createPromise("./data/pro.json")
+    ]).then(function (data) {
+        let [a,b] = data;
+        console.log(a);
+        console.log(b)
+    }).catch(function (error) {
+        console.log(error)
+    })
+
+
+
+
+  /* p.then(function (data) {
+       console.log(data)
+       console.log("成功的数据:" + data)
+   },function (error) {
+       console.log("错误的信息" + error)
+   })
+
+
+   p1.then(function (data) {
+       console.log(data)
+   },function (error) {
+       console.log(error)
+   })
+
+   p2.then(function (data) {
+       console.log(data)
+   },function (error) {
+       console.log(error)
+   })
+*/
+</script>

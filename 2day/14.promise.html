@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script src="jquery.min.js"></script>
+<script>
+
+   let p = new Promise(function (resolve,reject) {
+       //resolve -- 成功了
+
+       //reject  -- 失败了
+
+        $.ajax({
+            url : "./data/a1.txt",
+            data : {},
+            success : function(response){
+                resolve(response)
+
+            },
+            error : function (error) {
+                reject(error)
+            }
+        })
+
+   });
+
+   p.then(function (data) {
+       console.log("成功了" + data)
+   },function (error) {
+       console.log(error)
+       console.log("失败了"+ error)
+   })
+
+
+</script>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script src="jquery.min.js"></script>
+<script>
+
+
+    let p = new Promise(function (resolve,reject) {
+        $.ajax({
+            url : "https://resources.ninghao.net/wxapp-case/db.json",
+            success : function (response) {
+                resolve(response)
+            },
+            error : function (error) {
+                reject(error)
+            }
+        })
+    });
+
+
+    let p1 = new Promise(function (resolve,reject) {
+        $.ajax({
+            url : "./data/a.txt",
+            success : function (response) {
+                resolve(response)
+            },
+            error : function (error) {
+                reject(error)
+            }
+        })
+    });
+
+    let p2 = new Promise(function (resolve,reject) {
+        $.ajax({
+            url : "./data/pro.json",
+            success : function (response) {
+                resolve(response)
+            },
+            error : function (error) {
+                reject(error)
+            }
+        })
+    })
+
+   p.then(function (data) {
+       console.log(data)
+       console.log("成功的数据:" + data)
+   },function (error) {
+       console.log("错误的信息" + error)
+   })
+
+
+   p1.then(function (data) {
+       console.log(data)
+   },function (error) {
+       console.log(error)
+   })
+
+   p2.then(function (data) {
+       console.log(data)
+   },function (error) {
+       console.log(error)
+   })
+
+</script>
