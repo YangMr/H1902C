@@ -15,12 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2day/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="405">
-                <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <first_editor relative-caret-position="280">
+                <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2day/14.promise6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="-299">
+              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="42" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -159,7 +159,6 @@
         <option value="$PROJECT_DIR$/2day/13.forEach.html" />
         <option value="$PROJECT_DIR$/2day/13.forEach2.html" />
         <option value="$PROJECT_DIR$/2day/13.forEach3.html" />
-        <option value="$PROJECT_DIR$/2day/README.md" />
         <option value="$PROJECT_DIR$/2day/data/a.txt" />
         <option value="$PROJECT_DIR$/2day/15.回调函数.html" />
         <option value="$PROJECT_DIR$/2day/14.promise.html" />
@@ -169,6 +168,7 @@
         <option value="$PROJECT_DIR$/2day/14.promise4.html" />
         <option value="$PROJECT_DIR$/2day/14.promise5.html" />
         <option value="$PROJECT_DIR$/2day/14.promise6.html" />
+        <option value="$PROJECT_DIR$/2day/README.md" />
       </list>
     </option>
   </component>
@@ -263,12 +263,12 @@
       <updated>1566348745473</updated>
       <workItem from="1566348748072" duration="11225000" />
       <workItem from="1566387195668" duration="140000" />
-      <workItem from="1566434332399" duration="11822000" />
+      <workItem from="1566434332399" duration="12165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23187000" />
+    <option name="totallyTimeSpent" value="23530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="757" extended-state="0" />
@@ -566,16 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2day/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="405">
-            <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2day/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -637,8 +627,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2day/14.promise6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="-299">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2day/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="280">
+            <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

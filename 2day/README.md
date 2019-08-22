@@ -57,6 +57,8 @@
 
 ## 4. 什么是async，await？
 
+    https://segmentfault.com/a/1190000019740247
+
 ## 5. 为什么要使用async，await？
 
 
