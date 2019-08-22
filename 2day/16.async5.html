@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+
+    async function f() {
+        let flag = false;
+        if(flag){
+            return  "1111";
+        }else{
+            throw "error"
+        }
+    }
+    console.log(f())
+    f().then(function (data) {
+        console.log(data)
+    }).catch(function (error) {
+        console.log(error)
+    })
+
+    console.log("222")
+
+
+</script>

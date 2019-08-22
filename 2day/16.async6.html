@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script src="jquery.min.js"></script>
+<script>
+
+  //async await 配合使用
+
+  //给函数添加async  那么函数的返回值会是promise对象
+
+  //await 一定要放到async函数里面使用
+
+  //await 后面一般放的promise对象
+
+
+    function createPromise() {
+        return new Promise(function (resolve, reject) {
+            $.ajax({
+                url : "./data/pro.json",
+                success : function (response) {
+                    resolve(response)
+                },
+                error : function (error) {
+                    reject(error)
+                }
+            })
+        })
+    };
+
+
+   async function get() {
+       let data = await createPromise();
+       console.log(data)
+   }
+
+   get()
+</script>

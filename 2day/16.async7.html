@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script src="jquery.min.js"></script>
+<script>
+
+  //async await 配合使用
+
+  //给函数添加async  那么函数的返回值会是promise对象
+
+  //await 一定要放到async函数里面使用
+
+  //await 后面一般放的promise对象
+
+    let data = null;  //声明了一个变量，值为null
+
+    $.ajax({   //发送了ajax请求
+        url : "./data/pro.json",
+        success : function (response) {  //请求成功
+
+            data = response;
+        }
+    });
+
+    console.log(data)   //null   请求到的数据
+
+
+</script>
