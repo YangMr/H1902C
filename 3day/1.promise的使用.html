@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script src="jquery.min.js"></script>
+<script>
+
+    let p = new Promise(function (resolve,reject) {
+        //请求省的数据
+        $.ajax({
+            url : "./data/sheng.txt",
+            success : function (response) {
+                resolve(response);
+            },
+            error : function (error) {
+                reject(error)
+            }
+        })
+    });
+
+
+    p.then(function (data) {
+        if(data != ""){
+
+        }
+    }).catch(function (error) {
+        console.log(error)
+    })
+
+
+
+
+
+</script>

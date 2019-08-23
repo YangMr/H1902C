@@ -21,22 +21,54 @@
 
 
 
-   let a = $.ajax({   //发送了ajax请求
-        url : "./data/pro.json",
-        success : function (response) {  //请求成功
-            
-            data = response;
-        }
-    });
-   
-   async function get() {
+   // let a = $.ajax({   //发送了ajax请求
+   //      url : "./data/pro.json",
+   //      success : function (response) {  //请求成功
+   //
+   //      }
+   //  });
+   //
+   // async function get() {
+   //
+   //     data = await a;
+   //     console.log(data)
+   // }
 
-       data = await a;
-       console.log(data)
-   }
+    function createPromise(obj) {
+        return new Promise(function (resolve,reject) {
+            $.ajax({
+                url :obj.url,
+                success  : function (response) {
+                    resolve(response)
+                },
+                error : function (error) {
+                    reject(error)
+                }
+            })
+        })
+    }
+
+
+    var data = null;
+    async function get() {
+        data = await createPromise({url:"./data/pro.json"});
+
+        return data;
+       //let data2 = await createPromise({url:"./data/a.txt",data : {name : "jack"}})
+    }
+
+
+    
 
 
 
 
+
+    //
+    // createPromise().then(function (num) {
+    //     data = num;
+    // })
+    //
+    // console.log(data)
 
 </script>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script src="jquery.min.js"></script>
+<script>
+    //请求省的数据
+    $.ajax({
+        url : "./data/sheng.txt",
+        success : function(response){
+            //response 不为空则表示数据请求成功
+            if(response != ""){
+
+                //请求市的数据
+                $.ajax({
+                    url : "./data/shi.txt",
+                    success : function(response){
+                        if(response != ""){
+
+                            //  请求区县的数据
+                            $.ajax({
+                                url : "./data/xian.txt",
+                                success : function(response){
+                                    console.log(response)
+                                },
+                                error : function (error) {
+                                    console.log(error)
+                                }
+                            })
+
+                        }
+                    },
+                    error : function (error) {
+                        console.log(error)
+                    }
+                })
+
+
+            }
+        },
+        error : function (error) {
+            console.log(error)
+        }
+    })
+
+
+</script>
