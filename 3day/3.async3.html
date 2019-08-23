@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+
+
+    let p = new Promise(function (resolve,reject) {
+        resolve("111")
+    })
+
+    p.then(function (data) {
+        console.log(data)
+    })
+
+
+    async function a() {
+        return  "hello world";
+    }
+
+
+    async function result() {
+       let data = await a();
+        console.log(data)
+       console.log("1111")
+
+    }
+
+    result()
+
+
+
+
+
+
+
+
+
+
+/*   let p = new Promise(function (resolve,reject) {
+        resolve("1111")
+    });
+
+
+
+   p.then(function (data) {
+       console.log(data)
+   })
+
+    console.log("222")*/
+
+
+
+
+
+
+</script>

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8cd9066-12aa-4489-a4a9-24cfffc741cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2day/16.async8.html" beforeDir="false" afterPath="$PROJECT_DIR$/2day/16.async8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3day/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/3day/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,15 +16,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3day/1.promise的使用.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3day/1.promise的使用2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="443">
@@ -35,46 +25,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3day/1.promise的使用3.html">
+        <entry file="file://$PROJECT_DIR$/3day/3.async2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+            <state relative-caret-position="219">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3day/data/sheng.txt">
+        <entry file="file://$PROJECT_DIR$/3day/3.async3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="552">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3day/data/shi.txt">
+        <entry file="file://$PROJECT_DIR$/3day/4.数值的扩展.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="484">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3day/data/xian.txt">
+        <entry file="file://$PROJECT_DIR$/2day/14.promise6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="937">
+              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="42" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3day/2.请求.html">
+        <entry file="file://$PROJECT_DIR$/2day/14.promise4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="308">
+              <caret line="16" column="67" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -83,8 +73,8 @@
         <entry file="file://$PROJECT_DIR$/3day/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="535">
-                <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <first_editor relative-caret-position="481">
+                <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -92,10 +82,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3day/data/a.txt">
+        <entry file="file://$PROJECT_DIR$/2day/14.promise2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="649">
+              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2day/14.promise3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="72" column="6" lean-forward="true" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3day/5.数值的扩展.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -115,11 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1day/12.解构赋值3.html" />
-        <option value="$PROJECT_DIR$/1day/13.不完全的解构赋值.html" />
-        <option value="$PROJECT_DIR$/1day/14.解构赋值4.html" />
-        <option value="$PROJECT_DIR$/1day/15.字符串扩展.html" />
-        <option value="$PROJECT_DIR$/1day/16.字符串新增方法.html" />
         <option value="$PROJECT_DIR$/1day/17.函数的扩展.html" />
         <option value="$PROJECT_DIR$/1day/18.箭头函数.html" />
         <option value="$PROJECT_DIR$/1day/README.md" />
@@ -165,6 +168,11 @@
         <option value="$PROJECT_DIR$/3day/1.promise的使用.html" />
         <option value="$PROJECT_DIR$/3day/1.promise的使用2.html" />
         <option value="$PROJECT_DIR$/3day/1.promise的使用3.html" />
+        <option value="$PROJECT_DIR$/3day/3.async.html" />
+        <option value="$PROJECT_DIR$/3day/3.async2.html" />
+        <option value="$PROJECT_DIR$/3day/3.async3.html" />
+        <option value="$PROJECT_DIR$/3day/4.数值的扩展.html" />
+        <option value="$PROJECT_DIR$/3day/5.数值的扩展.html" />
         <option value="$PROJECT_DIR$/3day/README.md" />
       </list>
     </option>
@@ -185,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="20" />
     <option name="y" value="43" />
     <option name="width" value="1400" />
@@ -206,6 +214,11 @@
             <path>
               <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
               <item name="H1902C" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
+              <item name="H1902C" type="462c0819:PsiDirectoryNode" />
+              <item name="2day" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
@@ -257,12 +270,12 @@
       <workItem from="1566387195668" duration="140000" />
       <workItem from="1566434332399" duration="14362000" />
       <workItem from="1566466181449" duration="1266000" />
-      <workItem from="1566520339307" duration="2322000" />
+      <workItem from="1566520339307" duration="4746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29315000" />
+    <option name="totallyTimeSpent" value="31739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="757" extended-state="0" />
@@ -291,41 +304,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1day/16.字符串新增方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1day/17.函数的扩展.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1day/18.箭头函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1day/19.箭头函数2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2day/1.扩展运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2day/2.Array.form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -457,27 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2day/14.promise2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2day/14.promise3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="72" column="6" lean-forward="true" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2day/14.promise4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="51" selection-start-column="2" selection-end-line="69" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2day/14.promise5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -544,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2day/14.promise6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2day/16.async8.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -596,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3day/1.promise的使用2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="48" column="14" lean-forward="true" selection-start-line="44" selection-start-column="50" selection-end-line="48" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3day/data/sheng.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -624,11 +567,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/3day/3.async.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3day/3.async2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3day/3.async3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3day/4.数值的扩展.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3day/1.promise的使用2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="44" selection-start-column="50" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3day/5.数值的扩展.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2day/14.promise6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="937">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2day/14.promise2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2day/14.promise3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="72" column="6" lean-forward="true" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2day/14.promise4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="67" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3day/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="535">
-            <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <first_editor relative-caret-position="481">
+            <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
