@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+
+    /*
+    *
+    * 继承功能：
+    *   核心：对象冒充  -- call方法
+    *
+    *   有个已经创建的方法，名字叫show方法
+    *
+    *       show方法里面有姓名和年龄
+    *
+    *
+    *   自己在创建一个方法，名称叫 get方法
+    *
+    *   这个get方法show方法的姓名和年龄
+    *
+    *   这个时候我们需要用继承，而继承的核心这里我们采用 对象冒充
+    *
+    *
+    * */
+
+
+    //别人的
+    function show() {
+        this.name = "jack";
+        this.age = 1000;
+    }
+    show.prototype.sName = function () {
+        alert(this.name);
+    }
+    show.prototype.sAge = function () {
+        alert(this.age);
+    }
+
+
+
+
+    //创建自己的方法
+    function get(name,age) {
+        show.call(this)  //1. 进行对象冒充，让this指向的实例话get 之后的对象
+        this.leave = "1极"
+    }
+
+    get.prototype = new show();  //2。 将show方法的构造函数挂载到get方法的原型上
+    get.prototype.constructor = new get();   //将get的实例化挂载在get的原型构造器上面
+
+    let g = new get();
+
+
+    alert(g.name);
+    alert(g.age)
+
+
+
+
+</script>

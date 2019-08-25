@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="btn">click</button>
+</body>
+</html>
+<script>
+
+    //es5
+
+    //狗  姓名  年龄  颜色   狗友
+
+    function dog() {
+        this.name = "旺财";
+        this.age = 10;
+    }
+
+    dog.prototype.c = "red";
+    dog.prototype.a = ["小花","小黄"];
+
+
+    dog.prototype.showname = function () {
+        alert(this.name);
+    }
+    dog.prototype.showage = function () {
+        alert(this.age);
+    }
+    dog.prototype.showc = function () {
+        alert(this.c);
+    }
+
+
+    var d = new dog();
+
+    d.showname()
+    d.showage();
+    d.showc()
+
+
+
+</script>

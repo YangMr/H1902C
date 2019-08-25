@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="btn">click</button>
+</body>
+</html>
+<script>
+
+    // function dog() {
+    //     alert(this);
+    // }
+    // dog()   //this window
+    //
+    //
+    // var btn = document.getElementById("btn");
+    //
+    // btn.onclick = function () {
+    //     alert(this); //this 指向的当前正在发生时间的元素
+    // }
+
+
+    function Box() {
+        this.name = "jack";
+        this.age = 20;     //私有
+    }
+
+    let obj = new Box();
+
+    alert(obj.name);
+    alert(obj.age);
+
+
+    obj.prototype.show=function () {
+        alert("111")
+    }
+</script>

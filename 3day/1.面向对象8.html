@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="btn">click</button>
+</body>
+</html>
+<script>
+
+    //es5
+
+    //狗  姓名  年龄  颜色   狗友
+
+    function box(name,age) {
+        this.name = name;
+        this.age = age;
+
+        this.showName = function () {
+            alert(this.name);
+        };
+
+        this.showAge = function () {
+            alert(this.age)
+        }
+    }
+
+
+
+    let obj = new box("jack",100);
+    let obj1 = new box("rose",200);
+
+    obj.showName();
+    obj.showAge();
+    obj1.showName();
+    obj1.showAge()
+
+
+
+    // class box {
+    //     constructor (name,age){
+    //         this.name = name;
+    //         this.age = age;
+    //     }
+    // }
+    //
+    // let box1 = new box("jack",1000);
+    // let box2 = new box("rose",2000);
+    //
+    // alert(box1.name);
+    // alert(box1.age)
+    // alert(box2.age);
+    // alert(box2.name)
+
+</script>
