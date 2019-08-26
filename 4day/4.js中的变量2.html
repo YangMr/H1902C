@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+    //如何在jsx语法中输入js声明的变量
+
+    //创建一个变量，保存元素的内容
+    let content = "hello world"
+
+    let a = 10;
+
+    let b = "123.23";
+    //1.创建虚拟dom
+    let vdom = <div>
+        <span>我想好好学习-- {content}</span>
+        <br/>
+        <strong>5 + 5 = { a == 10 ? "success" : "error" }</strong>
+        <br />
+        {Math.random()}
+        <br />
+        {Number.parseInt(b)}
+    </div>;
+
+
+    //2.将虚拟dom渲染到容器 app
+    ReactDOM.render(vdom,document.getElementById("app"))
+
+
+</script>

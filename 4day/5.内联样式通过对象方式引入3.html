@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .it-jy{
+            color: red;
+            font-size: 20px;
+        }
+
+        .it-active{
+            background: purple;
+            color: #fff;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //如何在jsx语法中给标签添加行内样式
+
+    //创建一个变量，用来保存行内样式
+    let myStyle = {color:"yellow", fontSize:"30px"};
+
+    let myP = {color : "red", fontSize: "50px"}
+
+    let num = 1;
+    //1.创建虚拟dom
+
+    let vdom = <div>
+
+        <strong style={myStyle}>hello, 积云学院</strong>
+
+        <p style={myP}>2019-08-26 --- mryang</p>
+
+        <p index={num}>hello {num}</p>
+    </div>
+
+    //2. 将创建的虚拟dom渲染到容器app
+
+    ReactDOM.render(vdom,document.getElementById("app"))
+
+</script>

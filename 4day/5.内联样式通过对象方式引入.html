@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .it-jy{
+            color: red;
+            font-size: 20px;
+        }
+
+        .it-active{
+            background: purple;
+            color: #fff;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //给jsx语法中的标签添加类名 class
+
+    //定义一个变量，保存类型
+    let myClass = "it-active";
+
+    //1.创建虚拟dom
+    let vdom = <div>
+        <span className="it-jy">积云教育</span>
+        <br />
+        <strong className={myClass}>hello 1902c</strong>
+    </div>
+
+    //2.将虚拟dom渲染到容器
+     ReactDOM.render(vdom,document.getElementById("app"));
+
+
+</script>

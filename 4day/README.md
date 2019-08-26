@@ -15,3 +15,9 @@
     
     将jsx语法转化为es5语法
     <script src="js/babel.min.js"></script>
+    
+    
+## 重点
+
+    在jsx语法当中，如果使用单标签，结尾必须加上 /    
+        <br />

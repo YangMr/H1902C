@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--    创建容器-->
+    <div id="app"></div>
+
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //给容器渲染多个标签
+
+    //1.创建虚拟 dom
+
+    let vDOM = <div>
+        <span>hello</span>
+        <strong>积云学院</strong>
+    </div>;
+
+    //2.将创建的虚拟DOM渲染到容器
+    ReactDOM.render(vDOM,document.getElementById("app"))
+
+
+</script>
