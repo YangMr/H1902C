@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    
+    <div id="app">
+<!--        <form action="">-->
+<!--            <label for="name">用户名:</label>-->
+<!--            <input type="text" id="name">-->
+<!--        </form>-->
+    </div>
+
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //创建jsx语法
+
+    let vDOM = (
+        <div>
+            <form>
+                <label htmlFor="name">姓名</label>
+                <input type="text" id="name" />
+                {/* 这是注释 */}
+            </form>
+
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+    );
+
+    //将创建的虚拟dom渲染到容器
+
+    ReactDOM.render(vDOM,document.getElementById("app"))
+
+
+</script>

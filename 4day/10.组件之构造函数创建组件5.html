@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        ul{list-style: none;}
+        ul li{float: left; margin: 0 15px; border-right: 1px solid #ccc;}
+    </style>
+</head>
+<body>
+
+    <div id="app"></div>
+
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+
+    //创建Index组件
+    function Index() {
+        return (
+            <div>
+                <Header arr={["张三","李四","王五","马六"]}></Header>
+                <Footer val="北京吉利大学"></Footer>
+            </div>
+        )
+    };
+
+    //创建Header组件
+    function Header(props){
+        return (
+            <div>
+                <h1>我是头部</h1>
+                <ul>
+                    {
+                        props.arr.map((item,index) =>
+                            <li key={index}>{item}</li>
+                        )
+                    }
+                </ul>
+            </div>
+        )
+    }
+
+    //创建Footer组件
+    function Footer(props){
+        return (
+            <div>
+                <ul>
+                    <li>联系我们</li>
+                    <li>加入我们</li>
+                    <li>积云教育</li>
+                    <li>北京吉利大学</li>
+                </ul>
+                <p>{props.val}</p>
+            </div>
+        )
+    }
+
+
+    //将Index组件渲染到容器
+    ReactDOM.render(<Index />, document.getElementById("app"));
+
+
+</script>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="app"></div>
+
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //如何通过class类创建组件
+    class Index extends React.Component {
+        render(){
+            return (
+                <div>
+                    <h1>我是首页</h1>
+                    <ul>
+                        <li>首页1</li>
+                        <li>首页2</li>
+                        <li>首页3</li>
+                        <li>首页4</li>
+                    </ul>
+                </div>
+            )
+        }
+    }
+
+    //将class类创建的组件渲染到容器
+    ReactDOM.render(<Index />,document.getElementById("app"))
+
+</script>

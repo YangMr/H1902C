@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--创建容器-->
+<div id="app">
+
+</div>
+
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+
+    //创建数组
+    let arr = [
+        {name : "周杰伦", music : "七里香"},
+        {name : "林俊杰", music : "江南"},
+        {name : "那英", music : "征服"},
+        {name : "蔡徐坤", music : "鸡你太美"}
+    ];
+
+    //1.创建虚拟dom -- jsx语法
+    let vDOM = (
+        <div>
+            <ul>
+                {
+                    arr.map((item,index) =>
+                        <li key={index}>姓名: {item.name} --- 音乐: {item.music}</li>
+                    )
+                }
+            </ul>
+        </div>
+    );
+
+    //2.将创建好的虚拟dom渲染到容器
+    ReactDOM.render(vDOM,document.getElementById("app"))
+
+
+
+</script>
