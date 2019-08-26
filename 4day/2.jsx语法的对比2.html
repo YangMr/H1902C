@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="app">
+
+    </div>
+
+    <div id="app1">
+
+    </div>
+<!--往容器中插入一个span标签, class为: "it-like", 内容为: "积云学院"。-->
+<!--两种实现方式: a) 通过典型js方式;  b) JSX方式?-->
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+
+    //1.声明变量
+    let jyClass = "it-like";
+    let jyContent = "积云学院";
+
+    // a) 通过典型js方式;
+
+    //2.创建dom
+    let vDom = React.createElement("span",{className : jyClass},jyContent);
+
+    //3.将创建的dom渲染到容器
+    ReactDOM.render(vDom,document.getElementById("app"));
+
+    // b) JSX方式
+
+    //1.创建虚拟DOM
+    let vDOM = <span className={jyClass}>{jyContent}</span>;
+
+    //2.将创建的虚拟DOM渲染到容器里面
+    ReactDOM.render(vDOM,document.getElementById("app1"));
+
+</script>
