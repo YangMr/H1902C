@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+
+    </div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //1.获取到真实的dom元素--- app
+    let app = document.getElementById("app");
+
+
+    //2.通过jsx创建虚拟dom元素
+    let vDom = <h1>您好，积云学院</h1>;
+
+
+    //3.将虚拟dom渲染到页面元素上去
+    ReactDOM.render(vDom,app)
+</script>
