@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 600px;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/prop-types.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //创建数组
+
+    //创建组件
+    class Table extends React.Component {
+
+        constructor (props){
+            super(props)
+
+            //定义state
+            this.state = {
+                arr : [
+                    {name : "jack", age : 20, phone : 17802901987},
+                    {name : "rose", age : 28, phone : 17802901988},
+                    {name : "nick", age : 23, phone : 17802901980},
+                    {name : "jon", age : 22, phone : 17802901967}
+                ]
+            }
+
+
+            //解决this的指向
+            // this.del = this.del.bind(this)
+        }
+
+
+        render (){
+            return (
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>姓名</th>
+                            <th>年龄</th>
+                            <th>手机号</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        {
+                            this.state.arr.map((item,index)=>
+                                <tr key={index}>
+                                    <td>{item.name}</td>
+                                    <td>{item.age}</td>
+                                    <td>{item.phone}</td>
+                                    <td><button onClick={()=> this.del(index)}>删除</button></td>
+                                </tr>
+                            )
+                        }
+                    </tbody>
+
+                </table>
+            )
+        }
+
+
+        //定义删除的方法
+        del(a){
+
+            this.state.arr.splice(a,1)
+            this.setState({
+                arr : this.state.arr
+            })
+
+        }
+
+    }
+
+    //渲染组件
+    ReactDOM.render(
+        <Table />,
+        document.getElementById("app")
+    )
+
+</script>
