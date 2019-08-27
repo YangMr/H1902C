@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="app">
+
+
+
+    </div>
+
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/prop-types.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    /*
+    *
+    * 给元素绑定点击事件，点击事件执行的方法this指向的问题
+    *
+    *   解决方案两种：
+    *       1. 在箭头函数里面执行方法
+    *           onClick = {()=> this.change()}
+    *       2. 在constructor里面给执行的方法绑定this
+    *           this.change = this.change.bind(this)
+    * */
+
+    //创建组件
+    class Dog extends React.Component {
+
+        constructor (props){
+            super(props)
+
+            //定义狗的特征 -- state 存放的是可变的数据
+            this.state = {
+                age : 1,
+                friend : ["狗友1","狗友2"]
+            }
+
+
+            //设置this的执行 -- bind
+            this.change = this.change.bind(this)
+        }
+
+        //存放静态的数据 -- 不变的数据
+        static defaultProps = {
+            name : "多多",
+            sex : "公"
+        }
+
+
+        //设置组件传值的类型
+        static propTypes = {
+            name : PropTypes.string,
+            sex : PropTypes.string
+        }
+
+        //给组件设置内容
+        render(){
+
+            let {age, friend} = this.state;
+
+            return (
+                <div>
+                    <p>姓名: {this.props.name}</p>
+                    <p>性别: {this.props.sex}</p>
+                    <p>年龄: {age} </p>
+                    <p>狗友:</p>
+                    <ul>
+                        {
+                            friend.map((item,index)=>
+                                <li key={index}>{item}</li>
+                            )
+                        }
+                    </ul>
+
+                    <hr />
+
+                    <button onClick={this.change}>add</button>
+                </div>
+            )
+        }
+
+        //创建点击按钮执行的方法
+        change(){
+
+            //获取state定义的数组
+            let tempArr = this.state.friend;
+            tempArr.push("狗友:" + Math.floor(Math.random() * 100));
+
+            console.log(tempArr)
+
+            //设置age
+            this.setState({
+                age : this.state.age + 1,
+                friend : tempArr
+            })
+        }
+
+
+    }
+
+    //渲染组件
+    ReactDOM.render(
+        <Dog name="" sex="母"/>,
+        document.getElementById("app")
+    )
+</script>
