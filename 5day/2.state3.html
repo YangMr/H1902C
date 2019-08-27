@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //1.创建组件
+    class Index extends React.Component {
+        constructor (props){
+            super(props)
+
+            //定义状态
+            this.state = {
+                name : "林俊杰jj",
+                sex : "男 man",
+                music : "江南",
+                info : "",
+                va : ""
+            }
+        }
+
+
+        render (){
+            return (
+                <div>
+
+                    <h3>我是: {this.state.name}, 性别: {this.state.sex}, 代表作: {this.state.music}</h3>
+
+                    <p>{this.props.name}</p>
+
+                    <button onClick={()=> this.change()}>change state</button>
+
+                    <hr/>
+
+                    <input value={this.state.va} type="text" placeholder="请输入用户名" />
+                    <button onClick={()=> this.test()}>提交</button>
+                    <span>{this.state.info}</span>
+                </div>
+            )
+        }
+
+
+        //定义按钮执行的方法
+        change(){
+            this.setState({
+                name : "周杰伦",
+                sex : "男",
+                music : "稻香"
+            })
+        }
+
+
+        test(){
+            if(this.state.va == ""){
+                this.setState({
+                    info : "请输入用户名"
+                })
+            }
+        }
+    }
+
+
+
+    //2.渲染组件
+    ReactDOM.render(<Index name="hello"/>, document.getElementById("app"))
+</script>

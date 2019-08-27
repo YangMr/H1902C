@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="app"></div>
+
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+
+    /*
+    *
+    * react 组件的创建
+    *
+    *   方式：
+    *       函数式创建：
+    *
+    *           //函数式组件
+
+    function Index(props) {
+        return (
+            <div>
+                <h1>{props.name}</h1>
+
+                <Test a="123"></Test>
+            </div>
+        )
+    }
+
+    function Test(props){
+        return (
+            <div>
+                <h2>{props.a}</h2>
+            </div>
+        )
+    }
+
+    *
+    *
+    *       class关键字创建：
+    *
+    * */
+
+
+    //class关键字创建组件
+
+    class Index extends React.Component {
+        render(){
+            return (
+                <div>
+                    <h1>{this.props.name}</h1>
+
+                    <Header></Header>
+                </div>
+            )
+        }
+    }
+
+
+    class Header extends React.Component{
+        render(){
+            return (
+                <div>
+                    <h3>我是👌组件</h3>
+                </div>
+            )
+        }
+    }
+
+
+    //渲染组件
+    ReactDOM.render(<Index name="this is index" />, document.getElementById("app"));
+
+
+</script>
