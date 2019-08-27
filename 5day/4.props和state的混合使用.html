@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    /*
+    *
+    * 狗：
+    *   品种
+    *
+    *   性别
+    *
+    *   颜色
+    *
+    *   狗友
+    *
+    *
+    * 不变的：
+    *       性别
+    *       品种
+    *
+    * 变的：
+    *       颜色
+    *       狗友
+    *
+    *
+    *
+    * */
+
+
+
+    //创建一个组件，名称为Dog
+    class Dog extends React.Component {
+
+        render(){
+            return (
+                <div>
+                    <p>品种 : 哈士奇</p>
+                    <p>性别 : man</p>
+                    <p>颜色 : yellow </p>
+                    <p>狗友 :</p>
+                    <ul>
+                        <li>小明</li>
+                        <li>小黄</li>
+                        <li>小花</li>
+                    </ul>
+                </div>
+            )
+        }
+
+    };
+
+
+    //将创建的Dog组件渲染到容器
+    ReactDOM.render(
+        <Dog />,
+        document.getElementById("app")
+    )
+
+
+
+
+
+</script>

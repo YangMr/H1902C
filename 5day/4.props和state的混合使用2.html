@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    /*
+    *
+    * 狗：
+    *   品种
+    *
+    *   性别
+    *
+    *   颜色
+    *
+    *   狗友
+    *
+    *
+    * 不变的：
+    *       性别
+    *       品种
+    *
+    * 变的：
+    *       颜色
+    *       狗友
+    *
+    *
+    *
+    * */
+
+
+
+    //创建一个组件，名称为Dog
+    class Dog extends React.Component {
+
+        constructor (props){
+            super(props)
+
+            //定义状态  -- 定义可变的状态
+            this.state = {
+                dogColor : "黑色",
+                dogFriend : ["小明","小黄","小花花","小王"]
+            }
+
+
+        }
+
+        //定义不变的数据
+        static defaultProps= {
+            pinzhong : "哈士奇1",
+            sex : "woman"
+        }
+
+        render(){
+            return (
+                <div>
+                    <p>品种 : {this.props.pinzhong}</p>
+                    <p>性别 : {this.props.sex}</p>
+                    <p>颜色 : {this.state.dogColor} </p>
+                    <p>狗友 :</p>
+                    <ul>
+                        {
+                            this.state.dogFriend.map((item,index)=>
+                                <li key={index}>{item}</li>
+                            )
+                        }
+                    </ul>
+                </div>
+            )
+        }
+
+    };
+
+
+    //将创建的Dog组件渲染到容器
+    ReactDOM.render(
+        <Dog />,
+        document.getElementById("app")
+    )
+
+
+
+
+
+</script>

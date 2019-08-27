@@ -16,15 +16,11 @@
 
     //创建组件
     class Index extends React.Component {
-
         constructor (props){
             super(props)
-
             //创建ref
             this.myInput = React.createRef();
         }
-
-
         //给组件设置内容
         render(){
             return (
@@ -34,7 +30,6 @@
                 </div>
             )
         }
-
         //创建点击按钮执行的方法
         get(){
             console.log(this.myInput.current)

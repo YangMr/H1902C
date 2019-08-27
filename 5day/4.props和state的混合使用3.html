@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    /*
+    *
+    * 狗：
+    *   品种
+    *
+    *   性别
+    *
+    *   颜色
+    *
+    *   狗友
+    *
+    *
+    * 不变的：
+    *       性别
+    *       品种
+    *
+    * 变的：
+    *       颜色
+    *       狗友
+    *
+    *
+    *
+    * */
+
+
+
+    //创建一个组件，名称为Dog
+    class Dog extends React.Component {
+
+        constructor (props){
+            super(props)
+
+            //定义状态  -- 定义可变的状态
+            this.state = {
+                dogColor : 1,
+                dogFriend : []
+            }
+
+
+        }
+
+        //定义不变的数据
+        static defaultProps= {
+            pinzhong : "哈士奇1",
+            sex : "woman"
+        }
+
+
+        render(){
+            let {dogColor,dogFriend} = this.state;
+            let {pinzhong,sex} = this.props;
+            return (
+                <div>
+                    <p>品种 : {pinzhong}</p>
+                    <p>性别 : {sex}</p>
+                    <p>颜色 : {dogColor} </p>
+                    <p>狗友 :</p>
+                    <ul>
+                        {
+                           dogFriend.map((item,index)=>
+                                <li key={index}>{item}</li>
+                            )
+                        }
+                    </ul>
+
+                    <hr/>
+
+                    <button onClick={()=> this.change()}>改变颜色</button>
+
+                </div>
+            )
+        }
+
+
+        //创建按钮点击的方法
+        change(){
+            let tempArr = this.state.dogFriend;
+            tempArr.push("狗友" + Math.floor(Math.random()*100))
+            this.setState({
+                dogColor : this.state.dogColor + 1,
+                dogFriend : tempArr
+            })
+        }
+
+    };
+
+
+    //将创建的Dog组件渲染到容器
+    ReactDOM.render(
+        <Dog />,
+        document.getElementById("app")
+    )
+
+
+
+
+
+</script>
