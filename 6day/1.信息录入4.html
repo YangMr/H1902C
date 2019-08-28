@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #app{margin: 50px auto;width: 600px;}
+        fieldset{border: 1px solid purple;margin-bottom: 20px;}
+        fieldset input{width: 200px;height: 30px;margin: 10px 0;}
+        table{border: 2px solid purple; width: 600px; text-align: center;}
+        table thead{background: purple; color: #fff;}
+    </style>
+</head>
+<body>
+<!--创建容器-->
+<div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/prop-types.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+
+    //创建大的组件 --- Index
+    class Index extends React.Component {
+
+        constructor (props){
+            super(props)
+
+            //初始化数据
+            this.state = {
+                studentArr : [
+                    {name : "周杰伦",sex : "男", age : 30, phone : 17802901987},
+                    {name : "谢霆锋",sex : "男", age : 40, phone : 15910732068},
+                    {name : "刘德华",sex : "男", age : 50, phone : 17802901986}
+                ]
+            }
+
+            //让函数里面的this执行的当前所在的组件
+            this.del = this.del.bind(this);
+            this.add = this.add.bind(this);
+        }
+
+
+        render(){
+            return (
+                <div>
+                    <Add add={this.add}></Add>
+                    <List studentArr = {this.state.studentArr} del={this.del}></List>
+                </div>
+            )
+        }
+
+
+        //定义删除的方法
+        del(index){
+            //删除
+            this.state.studentArr.splice(index,1);
+
+            //更新状态
+            this.setState({
+                studentArr : this.state.studentArr
+            })
+        }
+
+
+        //定义添加数据的方法
+        add(data){
+
+            let arr = this.state.studentArr;
+            arr.push(data);
+
+            this.setState({
+                studentArr : arr
+            })
+        }
+    }
+
+    //创建添加数据组件 --- Add
+    class Add extends React.Component {
+
+        constructor(props){
+            super(props)
+
+            //创建ref
+            this.username = React.createRef();
+            this.userage = React.createRef();
+            this.usersex = React.createRef();
+            this.userphone = React.createRef();
+
+        }
+
+        render(){
+            return (
+                <div>
+                   <form>
+                       <fieldset>
+                           <legend>积云信息录入系统(React版本)</legend>
+                           <div>
+                               <label>姓名: </label>
+                               <input ref={this.username} type="text" placeholder="请输入姓名"/>
+                           </div>
+                           <div>
+                               <label>年龄: </label>
+                               <input ref={this.userage} type="text" placeholder="请输入年龄"/>
+                           </div>
+                           <div>
+                               <label>性别: </label>
+                               <select ref={this.usersex}>
+                                   <option value="男">男</option>
+                                   <option value="女">女</option>
+                               </select>
+                           </div>
+                           <div>
+                               <label>手机: </label>
+                               <input ref={this.userphone} type="text" placeholder="请输入手机号"/>
+                           </div>
+                           <div>
+                               <button type="button" onClick={()=> this.user()}>创建新用户</button>
+                           </div>
+                       </fieldset>
+                   </form>
+                </div>
+            )
+        }
+
+
+        //创建user方法
+        user(){
+            //获取输入的用户名
+            let uname = this.username.current.value;
+
+            //获取性别
+            let usex = this.usersex.current.value;
+
+            //获取年龄
+            let uage = this.userage.current.value;
+
+            //获取手机号
+            let uphone = this.userphone.current.value;
+
+            //校验数据
+            if(!uname || !usex || !uage || !uphone ){
+                alert("输入的内容不能为空");
+                return;
+            }
+
+
+           let obj = {name : uname,sex:usex,age :uage,phone:uphone}
+           this.props.add(obj)
+
+            //清空输入框数据
+            this.username.current.value = "";
+            this.usersex.current.value = "男";
+            this.userage.current.value = "";
+            this.userphone.current.value = "";
+
+        }
+    }
+
+    //创建数据展示组件 --- List
+    class List extends React.Component {
+        render(){
+            return (
+                <div>
+                   <table>
+                       <thead>
+                            <tr>
+                                <th>姓名</th>
+                                <th>性别</th>
+                                <th>年龄</th>
+                                <th>手机</th>
+                                <th>操作</th>
+                            </tr>
+                       </thead>
+                       <tbody>
+                            {
+                                this.props.studentArr.map((item,index)=>
+                                    <tr key={index}>
+                                        <td>{item.name}</td>
+                                        <td>{item.sex}</td>
+                                        <td>{item.age}</td>
+                                        <td>{item.phone}</td>
+                                        <td><button onClick={()=>this.props.del(index)}>删除</button></td>
+                                    </tr>
+                                )
+                            }
+                       </tbody>
+                   </table>
+                </div>
+            )
+        }
+    }
+
+    //渲染组件
+    ReactDOM.render(
+        <Index />,
+        document.getElementById("app")
+    )
+
+
+</script>

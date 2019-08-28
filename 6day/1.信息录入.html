@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #app{margin: 50px auto;width: 600px;}
+        fieldset{border: 1px solid purple;margin-bottom: 20px;}
+        fieldset input{width: 200px;height: 30px;margin: 10px 0;}
+        table{border: 2px solid purple; width: 600px; text-align: center;}
+        table thead{background: purple; color: #fff;}
+    </style>
+</head>
+<body>
+<!--创建容器-->
+<div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/prop-types.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+
+    //创建大的组件 --- Index
+    class Index extends React.Component {
+        render(){
+            return (
+                <div>
+                    <Add></Add>
+                    <List></List>
+                </div>
+            )
+        }
+    }
+
+    //创建添加数据组件 --- Add
+    class Add extends React.Component {
+        render(){
+            return (
+                <div>
+                   <form>
+                       <fieldset>
+                           <legend>积云信息录入系统(React版本)</legend>
+                           <div>
+                               <label>姓名: </label>
+                               <input type="text" placeholder="请输入姓名"/>
+                           </div>
+                           <div>
+                               <label>年龄: </label>
+                               <input type="text" placeholder="请输入年龄"/>
+                           </div>
+                           <div>
+                               <label>性别: </label>
+                               <select>
+                                   <option>男</option>
+                                   <option>女</option>
+                               </select>
+                           </div>
+                           <div>
+                               <label>手机: </label>
+                               <input type="text" placeholder="请输入手机号"/>
+                           </div>
+                           <div>
+                               <button>创建新用户</button>
+                           </div>
+                       </fieldset>
+                   </form>
+                </div>
+            )
+        }
+    }
+
+    //创建数据展示组件 --- List
+    class List extends React.Component {
+        render(){
+            return (
+                <div>
+                   <table>
+                       <thead>
+                            <tr>
+                                <th>姓名</th>
+                                <th>性别</th>
+                                <th>年龄</th>
+                                <th>手机</th>
+                                <th>操作</th>
+                            </tr>
+                       </thead>
+                       <tbody>
+                            <tr>
+                                <td>张三</td>
+                                <td>男</td>
+                                <td>20</td>
+                                <td>17802901987</td>
+                                <td><button>删除</button></td>
+                            </tr>
+                            <tr>
+                                <td>张三</td>
+                                <td>男</td>
+                                <td>20</td>
+                                <td>17802901987</td>
+                                <td><button>删除</button></td>
+                            </tr>
+                            <tr>
+                                <td>张三</td>
+                                <td>男</td>
+                                <td>20</td>
+                                <td>17802901987</td>
+                                <td><button>删除</button></td>
+                            </tr>
+                       </tbody>
+                   </table>
+                </div>
+            )
+        }
+    }
+
+    //渲染组件
+    ReactDOM.render(
+        <Index />,
+        document.getElementById("app")
+    )
+
+
+</script>
