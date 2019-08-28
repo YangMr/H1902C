@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/prop-types.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //创建组件
+    class Index extends React.Component {
+        //1.初始阶段
+        constructor(props){
+            super(props)
+            console.log("执行构造器")
+
+            this.state = {
+                name : "jack"
+            }
+        }
+
+        componentWillMount(){
+            console.log("组件渲染之前执行")
+        }
+
+        render(){
+            console.log("组件渲染的时候执行")
+            return (
+                <div>
+                    <h2>渲染</h2>
+                </div>
+            )
+        }
+
+        componentDidMount(){
+            console.log("组件渲染完成的时候执行")
+        }
+
+
+
+
+
+        //2.更新阶段
+
+        componentWillUpdate(){
+            console.log("数据更新之前会执行这个函数")
+        }
+
+        render(){
+            console.log("数据重新更新的时候触发")
+            return (
+                <div></div>
+            )
+        }
+
+        componentDidUpdate(){
+            console.log("数据更新完成之后触发")
+        }
+
+
+
+
+        //3.卸载阶段
+        componentWillUnmount(){
+            console.log("卸载的时候触发")
+        }
+
+
+        //4.错误处理阶段
+        componentDidCatch(){
+            console.log('错误处理阶段');
+        }
+
+    }
+
+
+    //渲染组件
+    ReactDOM.render(
+        <Index />,
+        document.getElementById("app")
+    )
+
+
+</script>

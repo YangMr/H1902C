@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/prop-types.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //创建组件
+    class Tree extends React.Component {
+        //出生的时候会进入到初始化阶段
+        //初始化阶段的时候县执行构造器
+        constructor(props){
+            super(props);
+
+            this.state = {
+                age : 0
+            }
+        }
+        //执行完构造器之后会执行组件在渲染之前的钩子函数
+        componentWillMount(){
+            console.log("执行完构造器之后会执行组件在渲染之前的钩子函数")
+        }
+        //进入到组件渲染阶段
+        render(){
+            return (
+                <div>
+                    <h1>我是🌲妖,我现在是{this.state.age}岁</h1>
+
+                </div>
+            )
+        }
+        //进入到组件渲染完成阶段
+        componentDidMount(){
+            this.timer = setInterval(()=>{
+                console.log(this.state.age)
+                this.setState({
+                    age : this.state.age + 1
+                })
+            },3000)
+        }
+
+
+        //更新阶段
+        //更新前的钩子函数
+        componentWillUpdate(){
+            console.log("我现在进入到更新前阶段")
+        }
+        //更新时的钩子函数
+        render(){
+            return (
+                <div>
+                    <h1>我是🌲妖,我现在是{this.state.age}岁</h1>
+                    <button onClick={()=>ReactDOM.unmountComponentAtNode(document.getElementById("app"))}>砍掉他</button>
+                </div>
+            )
+
+            console.log("正在更新时")
+        }
+
+        //更新完成的钩子函数
+
+        componentDidUpdate(){
+
+            console.log("更新完成阶段")
+        }
+
+
+        //卸载阶段
+        componentWillUnmount(){
+            console.log("进入卸载阶段")
+            clearInterval(this.timer)
+        }
+    }
+
+    //渲染组件
+    ReactDOM.render(
+        <Tree />,
+        document.getElementById("app")
+    )
+</script>
