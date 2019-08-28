@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/prop-types.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //创建组件
+    class Login extends React.Component{
+
+        constructor(props) {
+            super(props);
+
+            //定义状态
+            this.state = {
+                name : "",
+                pass : ""
+            }
+        }
+
+
+        render(){
+            return (
+                <div>
+                    <form>
+                        <fieldset>
+                            <legend>用户登陆</legend>
+                            <div>
+                                <label>用户名:</label>
+                                <input value={this.state.name} type="text" onChange={(e)=>this.test(e)} placeholder="请输入用户名"/>
+                            </div>
+                            <div>
+                                <label>密码:</label>
+                                <input value={this.state.pass} type="password" onChange={(e)=>this.get(e)} placeholder="请输入密码" />
+                            </div>
+                            <div>
+                                <button onClick={()=> this.lg()} type="button">登陆</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            )
+        }
+
+
+        //创建test方法
+        test(e){
+            let name = e.target.value
+
+            this.setState({
+                // name : name
+                name
+            })
+        }
+
+        //创建get方法
+        get(e){
+            let pass = e.target.value;
+
+            this.setState({
+                // pass: pass
+                pass
+            })
+
+        }
+
+        //创建lg方法，也就是获取输入的用户名和密码
+        lg(){
+            alert(`用户名: ${this.state.name}, 密码: ${this.state.pass}`)
+        }
+    }
+
+
+    //渲染组件
+    ReactDOM.render(
+        <Login />,
+        document.getElementById("app")
+    )
+
+
+</script>

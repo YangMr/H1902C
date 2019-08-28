@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+<script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script>
+<script src="js/prop-types.js"></script>
+<script src="js/babel.min.js"></script>
+<script type="text/babel">
+
+    //创建组件
+    class Login extends React.Component {
+
+        constructor(props){
+            super(props)
+
+
+            //创建ref
+            this.name = React.createRef();
+            this.pass = React.createRef()
+        }
+
+
+        render(){
+            return (
+                <div>
+                    <form>
+                        <div>
+                            <label>用户名:</label>
+                            <input ref={this.name} type="text" placeholder="请输入用户名" />
+                        </div>
+                        <div>
+                            <label>密码:</label>
+                            <input ref={this.pass} type="password" placeholder="请输入密码" />
+                        </div>
+                        <div>
+                            <button type="button" onClick={()=> this.get()}>登陆</button>
+                        </div>
+                    </form>
+                </div>
+            )
+        }
+
+
+        //创建方法
+        get(){
+            let name = this.name.current.value;
+            let pass = this.pass.current.value;
+
+            alert(`用户名: ${name} 密码: ${pass}`)
+        }
+    }
+
+
+    //渲染组件
+    ReactDOM.render(
+        <Login />,
+        document.getElementById("app")
+    )
+
+</script>
