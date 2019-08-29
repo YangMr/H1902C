@@ -1,0 +1,34 @@
+html,div,body,ul,li,p,span{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    width: 500px;
+    border: 1px solid #ccc;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+.App .ipt{
+    width: 100%;
+    height: 33px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-indent: 2em;
+    outline-color: red;
+    font-size: 16px;
+    font-family: "宋体";
+}
+.App ul{
+    list-style: none;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+.App ul li{
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #ccc;
+}
+.App ul li:last-child{
+    border-bottom: none;
+}
