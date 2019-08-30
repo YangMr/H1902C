@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="btn">存储</button>
+
+    <button id="get">获取</button>
+
+    <button id="remove">删除</button>
+</body>
+</html>
+<script>
+
+    let btn = document.getElementById("btn");
+
+    btn.onclick = function () {
+        sessionStorage.setItem("name","rose");
+    }
+
+    let get = document.getElementById("get");
+
+    get.onclick = function () {
+        console.log(sessionStorage.getItem("name"))
+    }
+
+    let remove = document.getElementById("remove");
+
+    remove.onclick = function () {
+        sessionStorage.removeItem("name")
+    }
+</script>

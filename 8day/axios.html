@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="btn">获取热门城市</button>
+
+    <ul id="list">
+
+    </ul>
+</body>
+</html>
+<!--<script src="https://unpkg.com/axios/dist/axios.min.js"></script>-->
+<script src="axios.js"></script>
+<script>
+
+    let btn = document.getElementById("btn");
+
+    btn.onclick = function () {
+        axios.get(
+            "https://elm.cangdu.org/v1/cities",
+            {
+                params : {
+                    type : "hot"
+                }
+            }
+        ).then(function (response) {
+            console.log(response.data)
+            response.data.forEach((item,index)=>{
+                let li = document.createElement("li");
+                li.innerHTML = item.name;
+                list.append(li)
+            })
+
+        }).catch(function (error) {
+            console.log(error)
+        })
+    }
+
+</script>

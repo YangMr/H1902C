@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="get">获取</button>
+</body>
+</html>
+<script>
+
+    let get = document.getElementById("get");
+
+    get.onclick = function () {
+        console.log(sessionStorage.getItem("name"))
+    }
+
+</script>

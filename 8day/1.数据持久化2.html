@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="btn">存储</button>
+
+    <button id="rm">删除</button>
+</body>
+</html>
+<script>
+
+    let btn = document.getElementById("btn");
+    let rm = document.getElementById("rm");
+
+    let a = [
+        {name : "jack",age:10,love : "唱歌"},
+        {name : "jack",age:10,love : "唱歌"},
+        {name : "jack",age:10,love : "唱歌"}
+    ];
+
+    btn.onclick = function () {
+        localStorage.setItem("name",JSON.stringify(a))
+    }
+
+    rm.onclick = function () {
+        localStorage.removeItem("arr")
+    }
+
+</script>
