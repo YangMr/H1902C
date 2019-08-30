@@ -10,9 +10,9 @@ class Footer extends React.Component {
                 <label htmlFor="">
                     <input checked={this.props.cCheck} onChange={(e)=> this.get(e)} type="checkbox"/>
                     <span>已完成{this.props.count}件</span> /
-                    <span>共计3件</span>
+                    <span>共计{this.props.arrCount}件</span>
                 </label>
-                <button type="button">清空已完成任务</button>
+                <button onClick={()=> this.props.del()} type="button">清空已完成任务</button>
             </div>
         )
     }
@@ -20,7 +20,6 @@ class Footer extends React.Component {
 
 
     get(e){
-        console.log(e.target.checked)
         this.props.changeCheck(e.target.checked)
         this.props.changeC(e.target.checked)
     }

@@ -21,7 +21,23 @@ class App extends React.Component {
         this.changeCheck = this.changeCheck.bind(this);
         this.oneCheck = this.oneCheck.bind(this)
         this.changeC = this.changeC.bind(this)
+        this.del = this.del.bind(this)
 
+    }
+
+    del(){
+        let arr = this.state.listArr;
+        let tarr = [];
+        arr.forEach((item,index)=>{
+
+            if(!item.check){
+                tarr.push(item)
+            }
+        })
+
+        this.setState({
+            listArr : tarr
+        })
     }
 
     changeC(data){
@@ -52,6 +68,8 @@ class App extends React.Component {
               }
           }
 
+          console.log(item.check)
+
           if(item.check){
               this.setState({
                   cCheck : true
@@ -72,15 +90,21 @@ class App extends React.Component {
     //定义一个修改全部check的放啊
     changeCheck(data){
         let arr = this.state.listArr;
-
+        let num = this.state.count;
         arr.forEach((item,index)=>{
             item.check = data;
-
-
+            if(data){
+                num+=1;
+            }else{
+                num-=1;
+            }
         })
 
+
+
         this.setState({
-            listArr : arr
+            listArr : arr,
+            count : num
         })
     }
 
@@ -93,7 +117,7 @@ class App extends React.Component {
 
                     <List oneCheck={this.oneCheck} listArr = {this.state.listArr}></List>
 
-                    <Footer changeC={this.changeC} cCheck={this.state.cCheck} count={this.state.count} changeCheck={this.changeCheck}></Footer>
+                    <Footer del={this.del} arrCount={this.state.listArr.length} changeC={this.changeC} cCheck={this.state.cCheck} count={this.state.count} changeCheck={this.changeCheck}></Footer>
                 </div>
             </div>
         )
