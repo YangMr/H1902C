@@ -1,0 +1,62 @@
+.todo-container{
+    width: 600px;
+    margin: 0 auto;
+}
+.todo-wrap{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+.todo-header input {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    padding: 4px 0;
+    text-indent: 2em;
+}
+
+.todo-main{
+    margin-top: 18px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+}
+.todo-main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.todo-main ul li{
+    height: 34px;
+    line-height: 34px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.todo-main li input[type="checkbox"]{
+    position: relative;
+    top: -2px;
+}
+.todo-main li button[type="button"]{
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 0 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+.todo-main li button[type="button"]:hover{
+    background: #f60;
+    color: #fff;
+}
+
+.todo-footer{
+    margin-top: 18px;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
