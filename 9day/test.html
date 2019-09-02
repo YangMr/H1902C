@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let str = [{id : 1, age : 20}];
+    localStorage.setItem("name",JSON.stringify(str))
+
+    let a = localStorage.getItem("name");
+    console.log(JSON.parse(a))
+
+
+</script>
