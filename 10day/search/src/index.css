@@ -1,0 +1,59 @@
+.App{
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.App .header-search{
+    display: flex;
+    height: 33px;
+    line-height: 33px;
+    padding: 10px 0;
+}
+.App .header-menu{
+    font-size: 14px;
+    padding: 0 10px;
+}
+.App .header-input{
+    width: 70%;
+}
+.App .header-input input{
+    width: 100%;
+    height: 33px;
+    background: #eee;
+    text-indent: 2em;
+}
+.App .header-cancel{
+    padding: 0 10px;
+    font-size: 14px;
+}
+.App .header-input input:focus{
+    outline: none;
+}
+.App .hot{
+    padding:15px 0;
+}
+.App .hot ul{
+    display: flex;
+    padding:5px 10px;
+    flex-wrap: wrap;
+}
+.App .hot ul li{
+    font-size: 14px;
+    margin: 10px 5px;
+    background: #eee;
+}
+.App .history,.App .hot{
+    padding: 0 10px;
+}
+.App .history-top{
+    display: flex;
+    justify-content: space-between;
+}
+.App .history ul{
+    padding: 13px 0;
+}
+.App .history ul li{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+}
