@@ -115,3 +115,4 @@ https://github.com/zimplexing/vue-nReader/blob/master/doc/zhuishushenqi.md
 11. 安装axios
 
 12. 在生命周期内请求数据，并进行渲染展示
+
