@@ -8,7 +8,7 @@ class History extends React.Component {
             <div className="history">
                <div className="history-top">
                    <h4>搜索历史</h4>
-                   <span>删除</span>
+                   <span onClick={()=> this.del()}>删除</span>
                </div>
                 <ul>
                     {
@@ -19,6 +19,10 @@ class History extends React.Component {
                 </ul>
             </div>
         )
+    }
+
+    del(){
+        localStorage.clear()
     }
 }
 

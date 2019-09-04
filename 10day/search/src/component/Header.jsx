@@ -10,13 +10,21 @@ class Header extends React.Component {
                     二手房
                 </div>
                 <div className="header-input">
-                    <input type="text" placeholder="请输入小区名或地址"/>
+                    <input onKeyDown={(e)=> this.get(e) } type="text" placeholder="请输入小区名或地址"/>
                 </div>
                 <div className="header-cancel">
                     取消
                 </div>
             </div>
         )
+    }
+
+    get(e){
+       if(e.keyCode === 13){
+
+           this.props.setData(e.target.value)
+
+       }
     }
 }
 

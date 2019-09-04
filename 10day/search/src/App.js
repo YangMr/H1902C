@@ -13,21 +13,37 @@ class App extends React.Component{
       this.state = {
           historyData : []
       }
+
+      this.setData = this.setData.bind(this)
   }
 
   componentDidMount() {
-     let localData = localStorage.getItem("searchHistory");
-     console.log(JSON.parse(localData))
-
-      this.setState({
-          historyData : JSON.parse(localData)
-      })
+    // this.setData()
   }
+
+    setData(a){
+
+        if(localStorage.getItem("searchHistory")){
+            let localData = JSON.parse(localStorage.getItem("searchHistory"));
+            localData.push(a);
+            localStorage.setItem("searchHistory",JSON.stringify(localData))
+            this.setState({
+                historyData : JSON.parse(localData)
+            })
+        }else{
+            let data = [];
+            data.push(a)
+            //2.重新存储数据
+            localStorage.setItem("searchHistory",JSON.stringify(data))
+        }
+
+    }
+
 
     render(){
       return (
           <div className="App">
-              <Header></Header>
+              <Header setData = {this.setData}></Header>
               <Hot></Hot>
               <History historyData={this.state.historyData}></History>
           </div>

@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #ccc;
+}
+.App{
+  width: 640px;
+  margin: 30px auto;
+}
+.App ul{
+  list-style: none;
+  display: flex;
+  background: #fff;
+  padding: 15px;
+}
+.App ul li{
+  padding: 0 20px;
+  cursor: pointer;
+}
