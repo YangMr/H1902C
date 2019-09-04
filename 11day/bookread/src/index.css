@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+
+}
+.App header{
+  width: 100%;
+  background: #26a2ff;
+  color: #fff;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+.App footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.App footer ul{
+  list-style: none;
+  display: flex;
+}
+.App  ul.nav li{
+  width: 25%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #EEE;
+  color: #333;
+}
+.App .category{
+  padding: 0 10px;
+}
+.App .category p{
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+.App .category ul{
+ display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.App .category ul li{
+  width: 27%;
+  padding:10px;
+  text-align: center;
+}
+
+button{
+  width: 120px;
+  height: 33px;
+  display: block;
+  margin: 0 auto;
+  background: purple;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
