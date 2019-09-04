@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8cd9066-12aa-4489-a4a9-24cfffc741cd" name="Default Changelist" comment="react 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10day/search/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/10day/search/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10day/search/src/component/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/10day/search/src/component/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10day/search/src/component/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/10day/search/src/component/History.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11day/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/11day/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,22 +15,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/11day/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="117">
-                <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="46" />
+              <first_editor relative-caret-position="442">
+                <caret line="72" column="74" selection-start-line="72" selection-start-column="74" selection-end-line="72" selection-end-column="74" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11day/route/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
+            <state relative-caret-position="112">
               <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="e#44#115#0" expanded="true" />
@@ -173,8 +170,8 @@
         <option value="$PROJECT_DIR$/11day/route/src/component/Follow.jsx" />
         <option value="$PROJECT_DIR$/11day/route/src/component/Hot.jsx" />
         <option value="$PROJECT_DIR$/11day/route/src/index.css" />
-        <option value="$PROJECT_DIR$/11day/README.md" />
         <option value="$PROJECT_DIR$/11day/route/src/App.js" />
+        <option value="$PROJECT_DIR$/11day/README.md" />
       </list>
     </option>
   </component>
@@ -194,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="7" />
     <option name="y" value="62" />
     <option name="width" value="1400" />
@@ -253,7 +250,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/11day/book" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -311,18 +308,18 @@
       <workItem from="1567384174641" duration="5882000" />
       <workItem from="1567401120057" duration="5549000" />
       <workItem from="1567491639650" duration="5618000" />
-      <workItem from="1567557673831" duration="3126000" />
+      <workItem from="1567557673831" duration="4651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131721000" />
+    <option name="totallyTimeSpent" value="133246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="62" width="1400" height="757" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18854243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18854243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -727,23 +724,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11day/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="117">
-            <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="46" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11day/route/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
+        <state relative-caret-position="112">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="e#44#115#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11day/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="442">
+            <caret line="72" column="74" selection-start-line="72" selection-start-column="74" selection-end-line="72" selection-end-column="74" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
