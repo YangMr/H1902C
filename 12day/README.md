@@ -18,7 +18,7 @@
 
     ctrl + c
     
-5. 安装antd-mobile
+5. 安装antd
 
     cnpm install antd-mobile --save  
    
