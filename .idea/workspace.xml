@@ -3,30 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8cd9066-12aa-4489-a4a9-24cfffc741cd" name="Default Changelist" comment="react 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11day/book/dist/static/js/vendor.9e5fb22d4ed34ae0e83c.js" beforeDir="false" afterPath="$PROJECT_DIR$/11day/book/dist/static/js/vendor.9e5fb22d4ed34ae0e83c.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12day/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/12day/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/src/components/Tabbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12day/ant/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4day/js/babel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/4day/js/babel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4day/js/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/4day/js/react-dom.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5day/js/babel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/5day/js/babel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5day/js/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/5day/js/react-dom.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6day/js/babel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/6day/js/babel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6day/js/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/6day/js/react-dom.development.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,56 +16,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12day/antd-demo/src/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12day/antd-demo/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" selection-start-line="2" selection-start-column="28" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12day/antd-demo/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12day/antd-demo/src/components/AntOne.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12day/antd-demo/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12day/antd-demo/config-overrides.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/12day/book/src/components/Tab.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12day/book/src/components/Search.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12day/book/src/components/Rank.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12day/book/src/components/Book.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12day/book/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12day/book/src/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <entry file="file://$PROJECT_DIR$/12day/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="575">
+                <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -98,9 +93,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -110,12 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/9day/demo/src/index.css" />
-        <option value="$PROJECT_DIR$/9day/demo/src/component/List.jsx" />
-        <option value="$PROJECT_DIR$/9day/README.md" />
-        <option value="$PROJECT_DIR$/10day/README.md" />
-        <option value="$PROJECT_DIR$/10day/search/src/common.css" />
-        <option value="$PROJECT_DIR$/10day/search/src/index.js" />
         <option value="$PROJECT_DIR$/10day/search/src/component/Hot.jsx" />
         <option value="$PROJECT_DIR$/10day/search/src/index.css" />
         <option value="$PROJECT_DIR$/10day/search/src/component/History.jsx" />
@@ -149,7 +138,6 @@
         <option value="$PROJECT_DIR$/12day/ant/src/index.js" />
         <option value="$PROJECT_DIR$/12day/ant/src/components/Tabbar.jsx" />
         <option value="$PROJECT_DIR$/12day/ant/src/App.js" />
-        <option value="$PROJECT_DIR$/12day/README.md" />
         <option value="$PROJECT_DIR$/12day/antd/src/App.js" />
         <option value="$PROJECT_DIR$/12day/antd/src/index.css" />
         <option value="$PROJECT_DIR$/12day/antd/src/index.js" />
@@ -161,6 +149,13 @@
         <option value="$PROJECT_DIR$/12day/book/src/components/search.jsx" />
         <option value="$PROJECT_DIR$/12day/book/src/components/Rank.jsx" />
         <option value="$PROJECT_DIR$/12day/book/src/components/Tab.jsx" />
+        <option value="$PROJECT_DIR$/12day/antd-demo/src/index.js" />
+        <option value="$PROJECT_DIR$/12day/antd-demo/src/App.js" />
+        <option value="$PROJECT_DIR$/12day/antd-demo/src/index.css" />
+        <option value="$PROJECT_DIR$/12day/antd-demo/src/components/AntOne.jsx" />
+        <option value="$PROJECT_DIR$/12day/antd-demo/package.json" />
+        <option value="$PROJECT_DIR$/12day/antd-demo/config-overrides.js" />
+        <option value="$PROJECT_DIR$/12day/README.md" />
       </list>
     </option>
   </component>
@@ -209,29 +204,7 @@
               <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
               <item name="H1902C" type="462c0819:PsiDirectoryNode" />
               <item name="12day" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
-              <item name="H1902C" type="462c0819:PsiDirectoryNode" />
-              <item name="12day" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
-              <item name="H1902C" type="462c0819:PsiDirectoryNode" />
-              <item name="12day" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
-              <item name="H1902C" type="462c0819:PsiDirectoryNode" />
-              <item name="12day" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="antd-demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,12 +278,13 @@
       <workItem from="1567491639650" duration="5618000" />
       <workItem from="1567557673831" duration="15777000" />
       <workItem from="1567647329298" duration="608000" />
-      <workItem from="1567648099490" duration="5542000" />
+      <workItem from="1567648099490" duration="6198000" />
+      <workItem from="1567664073582" duration="3062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150522000" />
+    <option name="totallyTimeSpent" value="154240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1392" height="797" extended-state="0" />
@@ -362,31 +336,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="react 2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/11day/book/assets/book.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11day/book/assets/moon.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11day/book/views/catory.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11day/book/views/catDetail.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11day/book/views/book.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11day/bookread/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11day/bookread/src/assets/up.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -551,16 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12day/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="345">
-            <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/12day/antd/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -602,12 +541,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12day/book/src/assets/up.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12day/book/src/assets/book.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/12day/book/src/assets/up.svg" />
+    <entry file="file://$PROJECT_DIR$/12day/book/src/assets/book.svg" />
     <entry file="file://$PROJECT_DIR$/12day/book/public/assets/up.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -635,27 +570,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12day/book/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12day/book/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/12day/book/public/assets/moon.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/12day/book/src/components/Book.jsx">
+    <entry file="file://$PROJECT_DIR$/12day/book/src/components/Tab.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="108">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#51#87#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -673,10 +597,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12day/book/src/components/Tab.jsx">
+    <entry file="file://$PROJECT_DIR$/12day/book/src/components/Book.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="162">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12day/book/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12day/book/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12day/antd-demo/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12day/antd-demo/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12day/antd-demo/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="2" selection-start-column="28" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12day/antd-demo/src/components/AntOne.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12day/antd-demo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12day/antd-demo/config-overrides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12day/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="575">
+            <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
