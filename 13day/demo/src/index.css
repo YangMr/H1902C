@@ -1,3 +1,30 @@
+*{
+ margin: 0;
+  padding: 0;
+}
 .App{
+  width: 600px;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+}
+.App ul{
+  list-style: none;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.App ul li{
+  width: 200px;
+  height: 38px;
+  line-height: 38px;
   text-align: center;
+  cursor: pointer;
+}
+.App ul li.active{
+  background: purple;
+  color: #fff;
+}
+.App .box{
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
 }
