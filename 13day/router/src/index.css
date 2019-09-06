@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  text-align: center;
+}
+.App ul{
+  display: flex;
+  list-style: none;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+.App ul li{
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  border-right: 1px solid #ccc;
+}
+.App ul li:last-child{
+  border-right: none;
+}
+.btn{
+  padding: 30px 0;
+}
+.btn button{
+  padding: 10px 20px;
+  margin: 0 10px;
+}
