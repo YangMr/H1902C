@@ -10,6 +10,7 @@
 .App ul{
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   border-bottom: 1px solid #ccc;
 }
 .App ul li{
@@ -27,4 +28,11 @@
   height: 300px;
   text-align: center;
   line-height: 300px;
+}
+
+.search-input{
+  width: 580px;
+  height: 35px;
+  display: block;
+  margin: 5px auto;
 }
