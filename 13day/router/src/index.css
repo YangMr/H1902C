@@ -30,3 +30,20 @@
   padding: 10px 20px;
   margin: 0 10px;
 }
+
+p{
+  padding: 20px 0;
+}
+p input{
+  width: 230px;
+  height: 35px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-left: 5px;
+}
+p button{
+  width: 120px;
+  height: 30px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}

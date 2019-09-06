@@ -4,6 +4,7 @@ import List from "./components/List"
 import Hot from "./components/Hot"
 import Rank from "./components/Rank";
 import Button from "./components/Button"
+import Login from "./components/Login"
 class App extends React.Component{
 
   constructor(props) {
@@ -29,6 +30,9 @@ class App extends React.Component{
               <li>
                 <Link to="/button">Button</Link>
               </li>
+              <li>
+                <Link to="/login">Login</Link>
+              </li>
             </ul>
 
             <hr/>
@@ -41,6 +45,7 @@ class App extends React.Component{
             <Route path="/hot" component={Hot} />
             <Route path="/rank" component={Rank} />
             <Route path="/button" component={Button} />
+            <Route path="/login" component={Login}/>
           </div>
 
         </Router>
