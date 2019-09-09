@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  width: 600px;
+  margin: 50px auto;
+}
+.App .todo-list{
+  margin: 20px 0;
+}
+.App  .list{
+  display: flex;
+}
