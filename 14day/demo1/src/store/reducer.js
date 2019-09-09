@@ -1,3 +1,6 @@
+//引入actionType.js
+import {DELETE_INPUT_VALUE,CHANGE_INPUT_VALUE,ADD_INPUT_VALUE} from "./actionType"
+
 //设置state的默认值
 const defaultState = {
     data : [
@@ -11,19 +14,19 @@ const defaultState = {
 };
 
 export default (state = defaultState,action)=>{
-    if(action.type === "delete_input_value"){
+    if(action.type === DELETE_INPUT_VALUE){
         let newState = JSON.parse(JSON.stringify(state));
         newState.data.splice(action.value,1);
         return newState;
     }
 
-    if(action.type === "change_input_value"){
+    if(action.type === CHANGE_INPUT_VALUE){
         let newState = JSON.parse(JSON.stringify(state));
         newState.inputValue = action.value;
         return newState;
     }
 
-    if(action.type === "add_input_value"){
+    if(action.type === ADD_INPUT_VALUE){
         let newState = JSON.parse(JSON.stringify(state));
         newState.data.push(action.value);
         newState.inputValue = ""

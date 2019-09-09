@@ -4,6 +4,11 @@ import React from "react"
 import { List } from 'antd';
 //引入index.js
 import store from "../store/index"
+//引入actionType.js
+// import {DELETE_INPUT_VALUE} from "../store/actionType"
+
+import {DeleteValue} from "../store/actionCreators"
+
 
 //创建组件
 class TodoList extends React.Component{
@@ -37,10 +42,7 @@ class TodoList extends React.Component{
 
     //定义删除的方法
     handleDeleteValue(e,index){
-        const action = {
-            type : "delete_input_value",
-            value : index
-        }
+        const action = DeleteValue(index)
         store.dispatch(action)
     }
 

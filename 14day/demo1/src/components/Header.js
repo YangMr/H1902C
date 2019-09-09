@@ -4,6 +4,11 @@ import React from "react"
 import { Input,Button } from 'antd';
 //引入store里面的index.js文件
 import store from "../store/index"
+//引入actionType.js
+// import {CHANGE_INPUT_VALUE,ADD_INPUT_VALUE} from "../store/actionType"
+//引入actionCreators
+import {AddValue, ChangeValue} from "../store/actionCreators";
+
 
 //创建组件
 class TodoHeader extends React.Component{
@@ -32,10 +37,7 @@ class TodoHeader extends React.Component{
     }
 
     handleChangeValue(e){
-        const action = {
-            type : "change_input_value",
-            value : e.target.value
-        }
+        const action = ChangeValue(e.target.value);
         store.dispatch(action)
     }
 
@@ -45,11 +47,7 @@ class TodoHeader extends React.Component{
     }
 
     handleAddValue(){
-        const action = {
-            type : "add_input_value",
-            value : this.state.inputValue
-        }
-
+        const action = AddValue(this.state.inputValue);
         store.dispatch(action)
     }
 }
