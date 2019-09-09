@@ -20,22 +20,45 @@ class ListName extends React.Component{
         this.state = {
             book : store.getState()
         }
+
+        this.listendata = this.listendata.bind(this);
+        this.del = this.del.bind(this);
+
+        store.subscribe(this.listendata);
     }
 
 
     render(){
-        console.log(this.state.book.list)
         return (
             <div>
                 <List
                     size="small"
                     bordered
                     dataSource={this.state.book.list}
-                    renderItem={item => <List.Item>{item}</List.Item>}
+                    renderItem={(item,index) => <List.Item onClick={(e)=>this.del(e,index)}>{item}</List.Item>}
                 />
             </div>
         )
     }
+
+    del(e,index){
+        alert(index)
+
+        const action = {
+            type : "del_input_value",
+            value : index
+        }
+
+        store.dispatch(action)
+    }
+
+    listendata(){
+        this.setState({
+            book : store.getState()
+        })
+    }
+
+
 }
 
 export default ListName

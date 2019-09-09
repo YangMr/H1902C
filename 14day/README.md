@@ -18,4 +18,20 @@
 
 在src目录下创建index.js，这个index.js文件你可以理解为是图书管理员
 
+
+
+
+
+ handleInputChange(e){
+        console.log(e.target.value)
+        const action = {
+            type : "change_input_value",
+            value : e.target.value
+        };
+        store.dispatch(action)
+    }
+
+    handleStoreChange(){
+      this.setState(store.getState())
+    }
  
