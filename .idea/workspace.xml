@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c8cd9066-12aa-4489-a4a9-24cfffc741cd" name="Default Changelist" comment="react 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13day/router/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/13day/router/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13day/router/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/13day/router/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13day/router/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/13day/router/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +15,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/13day/router/src/components/Login.jsx">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/14day/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="180">
+                <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="42" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/14day/demo/src/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1569">
-              <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+            <state relative-caret-position="27">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/14day/demo/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/14day/demo/src/store/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="16" selection-start-line="5" selection-start-column="21" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/14day/demo/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/14day/demo/src/components/List.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -31,22 +75,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13day/router/src/index.css">
+        <entry file="file://$PROJECT_DIR$/14day/demo/src/components/Todo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="108">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13day/router/src/App.js">
+        <entry file="file://$PROJECT_DIR$/14day/demo/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/14day/demo/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -68,14 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/11day/bookread/src/index.js" />
-        <option value="$PROJECT_DIR$/11day/bookread/src/component/BookRank.jsx" />
-        <option value="$PROJECT_DIR$/11day/bookread/src/component/BookSearch.jsx" />
-        <option value="$PROJECT_DIR$/11day/bookread/package.json" />
-        <option value="$PROJECT_DIR$/11day/bookread/src/component/BookCategory.jsx" />
-        <option value="$PROJECT_DIR$/11day/bookread/src/index.css" />
-        <option value="$PROJECT_DIR$/11day/bookread/src/component/BookLogin.jsx" />
-        <option value="$PROJECT_DIR$/11day/bookread/src/component/B.jsx" />
         <option value="$PROJECT_DIR$/11day/bookread/src/App.js" />
         <option value="$PROJECT_DIR$/11day/bookread/src/component/A.jsx" />
         <option value="$PROJECT_DIR$/11day/bookread/src/component/BookShelf.jsx" />
@@ -119,6 +164,14 @@
         <option value="$PROJECT_DIR$/13day/router/src/App.js" />
         <option value="$PROJECT_DIR$/13day/router/src/index.css" />
         <option value="$PROJECT_DIR$/13day/router/src/components/Login.jsx" />
+        <option value="$PROJECT_DIR$/14day/demo/src/index.js" />
+        <option value="$PROJECT_DIR$/14day/demo/src/components/Todo.js" />
+        <option value="$PROJECT_DIR$/14day/demo/src/App.js" />
+        <option value="$PROJECT_DIR$/14day/demo/src/index.css" />
+        <option value="$PROJECT_DIR$/14day/README.md" />
+        <option value="$PROJECT_DIR$/14day/demo/src/store/index.js" />
+        <option value="$PROJECT_DIR$/14day/demo/src/store/reducer.js" />
+        <option value="$PROJECT_DIR$/14day/demo/src/components/List.js" />
       </list>
     </option>
   </component>
@@ -139,8 +192,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="23" />
+    <option name="x" value="20" />
+    <option name="y" value="32" />
     <option name="width" value="1392" />
     <option name="height" value="797" />
   </component>
@@ -162,28 +215,28 @@
             <path>
               <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
               <item name="H1902C" type="462c0819:PsiDirectoryNode" />
-              <item name="13day" type="462c0819:PsiDirectoryNode" />
+              <item name="14day" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
               <item name="H1902C" type="462c0819:PsiDirectoryNode" />
-              <item name="13day" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="14day" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
               <item name="H1902C" type="462c0819:PsiDirectoryNode" />
-              <item name="13day" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="14day" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
               <item name="H1902C" type="462c0819:PsiDirectoryNode" />
-              <item name="13day" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="14day" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,18 +313,19 @@
       <workItem from="1567647329298" duration="608000" />
       <workItem from="1567648099490" duration="6198000" />
       <workItem from="1567664073582" duration="3464000" />
-      <workItem from="1567729972962" duration="8829000" />
+      <workItem from="1567729972962" duration="9042000" />
+      <workItem from="1567990015383" duration="3864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163471000" />
+    <option name="totallyTimeSpent" value="167548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1392" height="797" extended-state="0" />
+    <frame x="20" y="32" width="1392" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19474836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19474836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -283,7 +337,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32844576" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32844576" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -317,50 +371,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="react 2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/11day/test/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11day/test/src/component/List.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11day/test/src/component/Demo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11day/book/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="76" selection-start-column="76" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11day/test/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12day/ant/package.json" />
-    <entry file="file://$PROJECT_DIR$/12day/ant/src/components/Tabbar.jsx" />
-    <entry file="file://$PROJECT_DIR$/12day/ant/public/index.html" />
-    <entry file="file://$PROJECT_DIR$/12day/ant/src/index.js" />
     <entry file="file://$PROJECT_DIR$/12day/ant/src/App.js" />
     <entry file="file://$PROJECT_DIR$/12day/antd/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -635,9 +645,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/13day/router/src/components/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13day/router/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/13day/router/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="729">
           <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -645,17 +672,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13day/router/src/index.css">
+    <entry file="file://$PROJECT_DIR$/14day/demo/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="54">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13day/router/src/components/Login.jsx">
+    <entry file="file://$PROJECT_DIR$/14day/demo/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1569">
-          <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        <state relative-caret-position="243">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14day/demo/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14day/demo/src/components/Todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14day/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="180">
+            <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14day/demo/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14day/demo/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14day/demo/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="16" selection-start-line="5" selection-start-column="21" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14day/demo/src/components/List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
