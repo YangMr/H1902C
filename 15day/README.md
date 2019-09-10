@@ -32,4 +32,8 @@ https://github.com/bailicangdu/node-elm/blob/master/API.md
     
     
     export default connect(mapStateToProps)(Todo) 
+    
+# 蓝灯下载地址
+
+https://getlantern.org/zh_CN/index.html
      
