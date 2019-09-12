@@ -59,7 +59,7 @@ class List extends React.Component{
     }
 
     jump(index){
-        this.props.history.push({pathname : "/detail",query : {id:this.state.list[index].id, name:this.state.list[index].name,imgUrl : this.state.list[index].imgUrl, price : this.state.list[index].price}})
+        this.props.history.push({pathname : "/detail",query : {count : this.state.list[index].count,flag : this.state.list[index].flag,id:this.state.list[index].id, name:this.state.list[index].name,imgUrl : this.state.list[index].imgUrl, price : this.state.list[index].price}})
     }
 
 }

@@ -1,58 +1,76 @@
 {
   "productList" : [
     {
-      "id": "1001",
+      "id": 1,
       "name" :  "长虹 65D5S 65英寸4K超高清",
       "imgUrl" : "https://img11.360buyimg.com/babel/s360x360_jfs/t1/57043/3/5775/272456/5d36a811E30615d65/51645b8119dc8365.jpg",
-      "price" : 2799.00
+      "price" : 2799.00,
+      "count" : 1,
+      "flag" : false
     },
     {
-      "id": "1002",
+      "id": 2,
       "name" :  "音画质pro4K超高清",
       "imgUrl" : "https://img12.360buyimg.com/babel/s360x360_jfs/t1/77812/22/8123/143726/5d5fb35bE9b0aaae6/f61006014614f902.jpg",
-      "price" : 4799.00
+      "price" : 4799.00,
+      "count" : 1,
+      "flag" : false
     },
     {
-      "id": "1003",
+      "id": "3",
       "name" :  "飞利浦（PHILIPS）65PUF6192/T3",
       "imgUrl" : "https://img14.360buyimg.com/babel/s360x360_jfs/t1/23800/35/2942/81166/5c22fa25Ec5325ede/3cc29dd29997cff3.jpg",
-      "price" : 3799.00
+      "price" : 3799.00,
+      "count" : 1,
+      "flag" : false
     },
     {
-      "id": "1004",
+      "id": "4",
       "name" :  "长虹 65D5S 65英寸4K超高清",
       "imgUrl" : "https://img11.360buyimg.com/babel/s360x360_jfs/t1/57043/3/5775/272456/5d36a811E30615d65/51645b8119dc8365.jpg",
-      "price" : 2799.00
+      "price" : 2799.00,
+      "count" : 1,
+      "flag" : false
     },
     {
-      "id": "1005",
+      "id": "5",
       "name" :  "音画质pro4K超高清",
       "imgUrl" : "https://img12.360buyimg.com/babel/s360x360_jfs/t1/77812/22/8123/143726/5d5fb35bE9b0aaae6/f61006014614f902.jpg",
-      "price" : 4799.00
+      "price" : 4799.00,
+      "count" : 1,
+      "flag" : false
     },
     {
-      "id": "1006",
+      "id": "6",
       "name" :  "飞利浦（PHILIPS）65PUF6192/T3",
       "imgUrl" : "https://img14.360buyimg.com/babel/s360x360_jfs/t1/23800/35/2942/81166/5c22fa25Ec5325ede/3cc29dd29997cff3.jpg",
-      "price" : 3799.00
+      "price" : 3799.00,
+      "count" : 1,
+      "flag" : false
     },
     {
-      "id": "1007",
+      "id": "7",
       "name" :  "长虹 65D5S 65英寸4K超高清",
       "imgUrl" : "https://img11.360buyimg.com/babel/s360x360_jfs/t1/57043/3/5775/272456/5d36a811E30615d65/51645b8119dc8365.jpg",
-      "price" : 2799.00
+      "price" : 2799.00,
+      "count" : 1,
+      "flag" : false
     },
     {
-      "id": "1008",
+      "id": "8",
       "name" :  "音画质pro4K超高清",
       "imgUrl" : "https://img12.360buyimg.com/babel/s360x360_jfs/t1/77812/22/8123/143726/5d5fb35bE9b0aaae6/f61006014614f902.jpg",
-      "price" : 4799.00
+      "price" : 4799.00,
+      "count" : 1,
+      "flag" : false
     },
     {
-      "id": "1009",
+      "id": "9",
       "name" :  "飞利浦（PHILIPS）65PUF6192/T3",
       "imgUrl" : "https://img14.360buyimg.com/babel/s360x360_jfs/t1/23800/35/2942/81166/5c22fa25Ec5325ede/3cc29dd29997cff3.jpg",
-      "price" : 3799.00
+      "price" : 3799.00,
+      "count" : 1,
+      "flag" : false
     }
 
   ]

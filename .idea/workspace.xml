@@ -3,16 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c8cd9066-12aa-4489-a4a9-24cfffc741cd" name="Default Changelist" comment="react 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14day/demo/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/14day/demo/src/components/List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14day/demo/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/14day/demo/src/store/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15day/todolist/src/components/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/15day/todolist/src/components/Todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4day/js/babel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/4day/js/babel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4day/js/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/4day/js/react-dom.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5day/js/babel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/5day/js/babel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5day/js/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/5day/js/react-dom.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6day/js/babel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/6day/js/babel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6day/js/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/6day/js/react-dom.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8day/axios.html" beforeDir="false" afterPath="$PROJECT_DIR$/8day/axios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16day/jiyun/public/data/product_list_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/16day/jiyun/public/data/product_list_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16day/jiyun/src/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/16day/jiyun/src/components/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16day/jiyun/src/components/Detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/16day/jiyun/src/components/Detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16day/jiyun/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/16day/jiyun/src/components/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16day/jiyun/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/16day/jiyun/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/16day/jiyun/src/components/List.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="815">
-              <caret line="61" column="91" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
+            <state relative-caret-position="152">
+              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -73,17 +68,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/16day/jiyun/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="578">
+              <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/16day/jiyun/src/components/Detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="-54">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -91,17 +86,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/16day/jiyun/public/data/product_list_data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+            <state relative-caret-position="297">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/16day/jiyun/src/components/Cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="261">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -123,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/13day/router/src/components/Hot.jsx" />
         <option value="$PROJECT_DIR$/13day/router/src/components/Rank.jsx" />
         <option value="$PROJECT_DIR$/13day/router/src/components/Button.jsx" />
         <option value="$PROJECT_DIR$/13day/router/src/App.js" />
@@ -169,11 +163,12 @@
         <option value="$PROJECT_DIR$/16day/jiyun/src/components/cart.js" />
         <option value="$PROJECT_DIR$/16day/README.md" />
         <option value="$PROJECT_DIR$/16day/jiyun/src/App.js" />
-        <option value="$PROJECT_DIR$/16day/jiyun/src/index.css" />
-        <option value="$PROJECT_DIR$/16day/jiyun/public/data/product_list_data.json" />
-        <option value="$PROJECT_DIR$/16day/jiyun/src/components/List.js" />
         <option value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" />
+        <option value="$PROJECT_DIR$/16day/jiyun/src/index.css" />
         <option value="$PROJECT_DIR$/16day/jiyun/src/components/Detail.js" />
+        <option value="$PROJECT_DIR$/16day/jiyun/src/components/List.js" />
+        <option value="$PROJECT_DIR$/16day/jiyun/public/data/product_list_data.json" />
+        <option value="$PROJECT_DIR$/16day/jiyun/src/components/Cart.js" />
       </list>
     </option>
   </component>
@@ -207,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,10 +242,19 @@
               <item name="jiyun" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="H1902C" type="b2602c69:ProjectViewProjectNode" />
+              <item name="H1902C" type="462c0819:PsiDirectoryNode" />
+              <item name="16day" type="462c0819:PsiDirectoryNode" />
+              <item name="jiyun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,6 +294,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Cart.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Cart.js" working-dir="$PROJECT_DIR$/16day/jiyun/src/components">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Cart.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -327,12 +340,13 @@
       <workItem from="1567729972962" duration="9042000" />
       <workItem from="1567990015383" duration="17757000" />
       <workItem from="1568075783820" duration="10515000" />
-      <workItem from="1568251707504" duration="5511000" />
+      <workItem from="1568251707504" duration="6396000" />
+      <workItem from="1568267272188" duration="6666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197467000" />
+    <option name="totallyTimeSpent" value="205018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="23" width="1392" height="797" extended-state="0" />
@@ -344,7 +358,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -690,24 +704,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16day/jiyun/src/data/product_list_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16day/jiyun/src/components/Cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/16day/jiyun/src/data/product_list_data.json" />
     <entry file="file://$PROJECT_DIR$/16day/jiyun/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16day/jiyun/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="298" column="8" selection-start-line="298" selection-start-column="8" selection-end-line="298" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -721,15 +732,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/16day/jiyun/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/16day/jiyun/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16day/jiyun/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/16day/jiyun/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -741,41 +756,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16day/jiyun/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16day/jiyun/public/data/product_list_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="298" column="8" selection-start-line="298" selection-start-column="8" selection-end-line="298" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/16day/jiyun/src/components/List.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="61" column="91" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
+        <state relative-caret-position="152">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/16day/jiyun/public/data/product_list_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/16day/jiyun/src/components/Detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="-54">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16day/jiyun/src/components/Cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
