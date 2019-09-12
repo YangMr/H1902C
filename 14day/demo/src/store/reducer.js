@@ -14,7 +14,7 @@ export default (state = defaultState,action)=>{
 
     if(action.type === "add_input_value"){
         const newState = JSON.parse(JSON.stringify(state));
-        newState.list.push(action.value);
+        newState.List.push(action.value);
         newState.inputValue = ""
         return newState;
     }
@@ -22,7 +22,7 @@ export default (state = defaultState,action)=>{
     if(action.type === "del_input_value"){
         const newState = JSON.parse(JSON.stringify(state));
 
-        newState.list.splice(action.value,1);
+        newState.List.splice(action.value,1);
         return newState;
     }
     return state;

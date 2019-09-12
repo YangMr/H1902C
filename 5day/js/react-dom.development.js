@@ -1847,7 +1847,7 @@ function isFallbackCompositionEnd(topLevelType, nativeEvent) {
  * @return {?string}
  */
 function getDataFromCustomEvent(nativeEvent) {
-  var detail = nativeEvent.detail;
+  var detail = nativeEvent.Detail;
   if (typeof detail === 'object' && 'data' in detail) {
     return detail.data;
   }
@@ -6666,7 +6666,7 @@ var possibleStandardNames = {
   kind: 'kind',
   label: 'label',
   lang: 'lang',
-  list: 'list',
+  list: 'List.js',
   loop: 'loop',
   low: 'low',
   manifest: 'manifest',

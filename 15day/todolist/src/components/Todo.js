@@ -11,7 +11,7 @@ class Todo extends React.Component{
                 </div>
                 <ul>
                     {
-                        this.props.list.map((item,index)=>
+                        this.props.List.map((item, index)=>
                             <li onClick={()=> this.props.handleDeleteValue(index)} key={index}>{item}</li>
                         )
                     }

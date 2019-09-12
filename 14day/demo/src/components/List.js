@@ -34,7 +34,7 @@ class ListName extends React.Component{
                 <List
                     size="small"
                     bordered
-                    dataSource={this.state.book.list}
+                    dataSource={this.state.book.List}
                     renderItem={(item,index) => <List.Item onClick={(e)=>this.del(e,index)}>{item}</List.Item>}
                 />
             </div>
