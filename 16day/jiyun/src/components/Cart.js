@@ -1,4 +1,6 @@
 import React from "react"
+import Item from "./Item"
+
 
 class Cart extends React.Component{
 
@@ -33,7 +35,9 @@ class Cart extends React.Component{
                             <th>删除</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <Item resultCount={this.state.resultCount} delete={this.delete} count={this.state.count} shop={this.state.shop}></Item>
+
+                    {/*<tbody>
                         {
                             this.state.shop.map((item,index)=>
                                 <tr key={index}>
@@ -51,7 +55,7 @@ class Cart extends React.Component{
                                 </tr>
                             )
                         }
-                    </tbody>
+                    </tbody>*/}
                     <tfoot>
                         <tr>
                             <td>共计 : {this.state.resultCount}</td>
@@ -69,9 +73,9 @@ class Cart extends React.Component{
             this.setState({
                 shop : data
             })
-
         }
     }
+
 
 
 
